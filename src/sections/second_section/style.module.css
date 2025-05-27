@@ -1,0 +1,66 @@
+.mask_text {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(89,89,89);
+    background: linear-gradient(90deg, rgba(89,89,89,1) 0%, rgba(89,89,89,1) 75%, rgba(89,89,89,0.5) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-[22px] font-[400] ;
+}
+
+.mask_text2 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(0deg, rgba(7,97,191,1) 0%, rgba(7,97,191,1) 50%, rgba(129,172,218,1) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-[36px] tracking-widest leading-[50px] max-[1300px]:leading-[30px] font-[400] ;
+}
+
+.mask_text3 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(90deg, rgb(167, 186, 213) 0%, rgba(7,97,191,1) 50%, rgb(12, 94, 168) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-[18px] font-[400] ;
+}
+
+.mask_text4 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(90deg, rgb(167, 186, 213) 0%, rgba(7,97,191,1) 50%, rgb(12, 94, 168) 100%);
+
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-[36px] font-[400] tracking-[-1px] leading-[70px] max-[800px]:text-3xl;
+}
+
+.mask_text5 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(90deg, rgb(167, 186, 213) 0%, rgba(7,97,191,1) 50%, rgb(12, 94, 168) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-[36px] max-[800px]:text-3xl font-[400] leading-[80px];
+}
+
+.card_background {
+    @apply w-[260px] max-[800px]:w-56 max-[1300px]:w-64 min-[1800px]:w-80 h-[300px]  rounded-xl p-[2px] relative bg-gradient-to-r from-[#0761bf]/70 to-50% to-transparent overflow-hidden ;
+}
+
+.animated_back {
+    animation: animated_background 5s linear infinite;
+    @apply absolute w-full h-full  scale-[3] top-0 left-0 -z-10 bg-gradient-to-r from-[#0761bf]/70 to-50% to-transparent;
+}
+
+@keyframes animated_background {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

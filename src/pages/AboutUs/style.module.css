@@ -1,0 +1,14 @@
+@import url(https://db.onlinewebfonts.com/c/dda65d7f418f4ab23abf484c807c9f17?family=Arboria-Medium);
+@import url(https://db.onlinewebfonts.com/c/1c7f14203d028f1c6f8914508f469cb9?family=Arboria-Book);
+@import url(https://db.onlinewebfonts.com/c/bf7395f715c4c074d2a39e1c273afbaa?family=Arboria-Light);
+
+.container {
+    font-family: "Arboria-Medium";
+    @apply  w-full h-auto flex flex-col items-center mt-40 z-10 overflow-x-clip ;
+}
+
+.shadow_inner {
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+}

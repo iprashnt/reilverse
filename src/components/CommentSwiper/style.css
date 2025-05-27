@@ -1,0 +1,7 @@
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    width: auto !important;
+    bottom: 30px !important; /* Измените это значение на то, которое вам нужно */
+}

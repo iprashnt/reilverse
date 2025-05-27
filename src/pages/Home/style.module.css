@@ -1,0 +1,61 @@
+@import url(https://db.onlinewebfonts.com/c/dda65d7f418f4ab23abf484c807c9f17?family=Arboria-Medium);
+@import url(https://db.onlinewebfonts.com/c/1c7f14203d028f1c6f8914508f469cb9?family=Arboria-Book);
+.container {
+    font-family: "Arboria-Medium";
+    @apply w-full h-auto min-h-[500px] flex flex-col items-center relative overflow-x-clip ;
+}
+
+.content_wrapper {
+    @apply w-full max-w-[1400px] min-[1800px]:max-w-[1600px] flex flex-col  items-center relative z-10 mt-40;
+}
+
+.mask_text {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(89,89,89);
+    background: linear-gradient(90deg, rgba(89,89,89,1) 0%, rgba(89,89,89,1) 75%, rgba(89,89,89,0.5) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-[30px] font-semibold ;
+}
+
+.mask_text2 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(0deg, rgba(7,97,191,1) 0%, rgba(7,97,191,1) 50%, rgba(129,172,218,1) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-5xl tracking-widest leading-[70px] max-[1300px]:leading-[50px] font-semibold ;
+}
+
+.mask_text3 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(90deg, rgb(167, 186, 213) 0%, rgba(7,97,191,1) 50%, rgb(12, 94, 168) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-xl font-semibold ;
+}
+
+.mask_text4 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(90deg, rgb(140, 192, 75) 0%, rgb(72, 98, 38) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-5xl font-semibold tracking-[-1px] leading-[70px];
+}
+
+.mask_text5 {
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: rgb(7,97,191);
+    background: linear-gradient(90deg, rgb(118, 164, 50) 0%, rgb(140, 192, 75) 100%);
+    -webkit-background-clip: text; /* clip the background to the text inside the tag*/
+    -webkit-text-fill-color: transparent; /* make the text transparent so * the background shows through*/
+    @apply text-5xl font-semibold leading-[80px];
+}
+
+.shadow_inner {
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+}

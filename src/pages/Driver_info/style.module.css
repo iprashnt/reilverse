@@ -1,0 +1,12 @@
+@import url(https://db.onlinewebfonts.com/c/dda65d7f418f4ab23abf484c807c9f17?family=Arboria-Medium);
+@import url(https://db.onlinewebfonts.com/c/1c7f14203d028f1c6f8914508f469cb9?family=Arboria-Book);
+@import url(https://db.onlinewebfonts.com/c/bf7395f715c4c074d2a39e1c273afbaa?family=Arboria-Light);
+
+.container {
+    font-family: "Arboria-Medium";
+    @apply  w-full h-auto flex flex-col items-center mt-40 z-10 overflow-x-clip ;
+}
+
+.tabs {
+    @apply max-[1000px]:w-[70px] w-[120px] h-10 bg-gradient-to-l from-white to-transparent rounded text-[#8DC14B] max-[1000px]:text-[12px] text-[14px] tracking-[1px] flex items-center justify-center ;
+}

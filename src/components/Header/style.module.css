@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/litsans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/1c7f14203d028f1c6f8914508f469cb9?family=Arboria-Book);
+.container {
+    font-family: 'LitSans', sans-serif;
+    @apply w-full h-32 flex flex-col items-center  fixed top-0 z-50 ;
+}
+
+.wrapper {
+    @apply w-full h-32 flex  flex-col items-center relative;
+}
+
+.logo_wrapper {
+    @apply w-fit h-20 max-w-[300px] max-[500px]:h-16 flex flex-col items-center justify-center ;
+}
+
+.nav_links {
+    @apply  flex flex-row items-center max-[1150px]:hidden max-[1300px]:gap-3 gap-8 min-[1800px]:gap-14 min-[1800px]:gap-20 min-[1600px]:mx-12 mx-3 ;
+}
+
+.nav_links_mob {
+    @apply  flex flex-col items-end  gap-8 mb-4 ;
+}
